@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+.li a:hover {
+  border-bottom: 1px solid;
+  color: rgb(128, 117, 117);
+}
+.li {
+  font-size: 2.4rem;
+  padding: 1.2rem;
+  margin-left: 0.8rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+}
+.link-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+}
+.logo {
+  font-size: 3.2rem;
+  padding: 1.6rem 4.8rem;
+}
+.tekstovi-container {
+  background-color: rgb(164, 108, 117);
+  padding: 1.2rem 2.4rem;
+  border-radius: 12px;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.autor-container {
+  display: flex;
+  justify-content: space-between;
+}
+.atc {
+  text-decoration: none;
+}
+.naslov {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.autor {
+  font-size: 2.4rem;
+  color: black;
+}
+.datum {
+  font-size: 2.4rem;
+  color: black;
+}
+.autor-container {
+  display: flex;
+  gap: 2.4rem;
+}
+.text-paragraph {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+.text-paragraphs-container {
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.naslov-txt {
+  font-size: 3.2rem;
+
+  margin-bottom: 2rem;
+}
+.autor-txt {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 50rem;
+
+  height: 65rem;
+}
+.kategorije-container {
+  max-width: 110rem;
+  margin: 6.4rem auto;
+}
+.kategorija-a {
+  text-decoration: none;
+}
+.kategorija {
+  background-color: rgb(225, 201, 170);
+  font-size: 2.4rem;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1.2rem 0;
+  transition: all 0.4s;
+  color: black;
+}
+.kategorija:hover {
+  background-color: rgb(187, 159, 123);
+}
+.najnovije-container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
